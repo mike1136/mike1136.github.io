@@ -1,0 +1,115 @@
+*{
+    color:white;
+    font-family: 'Cabin', sans-serif;
+}
+
+body{
+    background-color:black;
+}
+.debug-border{
+      border-width: 1px;
+    border-style: solid;
+    border-color:white;
+}
+.navegation{
+    text-align:right;
+    background-color:#B2B2B2;
+    width:100%;
+      position:fixed;
+      z-index:999;
+
+
+}
+.navegation-item{
+    display:inline-block;
+    padding:15px 30px;
+    color:black;
+    background-color:rgba(174, 174, 174, 0.4);
+    height:100%;
+    
+}
+.current-status{
+    height:35px;
+    width:100px;
+padding:5px 5px 5px 5px;
+font-size: auto;
+display:inline-block;
+color:black;
+background-color:yellow;
+border-radius: 5px;
+}
+.navegation-item:hover{
+    background-color:#999999;
+}
+.introduction-container {
+    background: rgba(255,255,255,0.1);
+    width:100.8%;
+}
+.introduction-container-item{
+    padding:80px 60px;
+    display:inline-block;
+  
+}
+.introduction-image{
+    height:400px;
+    width: 400px;
+    border-radius: 50%;
+}
+.introduction-left{
+    text-align: center;
+}
+
+.introduction-title{
+    margin-bottom:60px;
+}
+
+.introduction-description{
+    font-size:27px;
+}
+.container-title {
+    padding-top:20px;
+    padding-bottom:1px;
+    text-align:center;
+
+}
+.content-container{
+        background-color: rgba(255,255,250,0.4);
+            text-align:center;
+}
+.container-item{
+    padding:20px 30px;
+    display:inline-block;
+
+}
+.project-container{
+margin:10px 20px;
+padding-top: 10p;
+background-color: rgba(255,255,255,0.2);
+border-radius: 5px;
+
+
+}
+.img-place{
+margin-top:15px;
+margin-bottom:15px;
+
+}
+.project-content-left{
+     display:inline-block;
+     padding:25px 20px;
+     color:black;
+}
+.project-content-right{
+    color:black;
+    padding:15px 20px;
+
+}
+.project-description{
+    color:black;
+    font-size:20px;
+}
+.project-thumbnail{
+    max-height: 100%;
+    max-width:100%;
+}
+
