@@ -150,3 +150,16 @@ ext install stylelint
 8. <b>ALT + B</b>: Open in default browser.
 9. <b>ALT + SHIFT + B</b>: Open in another browser.
  
+ # Usefult snippets
+ 1. Helper function to convert NodeLists to Arrays
+ ```javascript
+ // Helper function to convert NodeLists to Arrays
+  function slice(nodes) {
+    return Array.prototype.slice.call(nodes);
+  }
+  ```
+
+  ### Unorganized thoughts
+
+  * 48dp minimal touch  target size
+  * 32dp margin around touch target
